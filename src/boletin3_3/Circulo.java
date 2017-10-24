@@ -17,12 +17,12 @@ public class Circulo {
         return radio;
     }
 
-    public double calcularArea(){
+    public double calcularArea(double radio){
         double area;
         return(area = Pi*Math.pow(radio, radio));
     }
     
-    public double calcularLonxitude(){
+    public double calcularLonxitude(double radio){
         return Pi*radio;
     }
 }
